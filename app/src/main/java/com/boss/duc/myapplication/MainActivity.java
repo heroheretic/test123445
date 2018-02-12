@@ -65,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
         protected void onProgressUpdate(Integer... values) {
             super.onProgressUpdate(values);
             progressBar.setProgress(values[0]);
-            txtprogress.setText(String.valueOf(values[0])+"%");
+            txtprogress.setText(String.valueOf(values[0])+"%%%%%%%%%%%%%%%%");
+			
         }
 
         @Override
